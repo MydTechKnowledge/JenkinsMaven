@@ -8,6 +8,11 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>MavenJenkins2</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+		<sonar.host.url>http://192.168.0.187:9000/</sonar.host.url>
+		<sonar.login>c51791f31b26ed32affbf7e3c46bb59f1b3c8a74</sonar.login>
+		<!-- <sonar.password>admin</sonar.password> -->
+	</properties>
 	<build>
 		<pluginManagement>
 			<plugins>
